@@ -3,10 +3,7 @@ use strict;
 use warnings;
 
 package Parse::MIME;
-{
-  $Parse::MIME::VERSION = '1.000';
-}
-
+$Parse::MIME::VERSION = '1.001';
 # ABSTRACT: Parse mime-types, match against media ranges
 
 use Exporter 'import';
@@ -121,7 +118,7 @@ sub best_match {
 	return $match;
 }
 
-
+__END__
 
 =pod
 
@@ -131,7 +128,7 @@ Parse::MIME - Parse mime-types, match against media ranges
 
 =head1 VERSION
 
-version 1.000
+version 1.001
 
 =head1 SYNOPSIS
 
@@ -228,7 +225,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
-
-__END__
-
