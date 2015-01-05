@@ -1,9 +1,9 @@
-#!/usr/bin/perl
+use 5.006;
 use strict;
 use warnings;
 
 package Parse::MIME;
-$Parse::MIME::VERSION = '1.001';
+$Parse::MIME::VERSION = '1.002';
 # ABSTRACT: Parse mime-types, match against media ranges
 
 use Exporter 'import';
@@ -122,13 +122,15 @@ __END__
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 Parse::MIME - Parse mime-types, match against media ranges
 
 =head1 VERSION
 
-version 1.001
+version 1.002
 
 =head1 SYNOPSIS
 
@@ -219,7 +221,7 @@ Aristotle Pagaltzis <pagaltzis@gmx.de>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2012 by Aristotle Pagaltzis.
+This software is copyright (c) 2015 by Aristotle Pagaltzis.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
